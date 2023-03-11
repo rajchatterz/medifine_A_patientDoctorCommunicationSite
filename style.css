@@ -1,0 +1,114 @@
+*{
+    font-family: 'Tilt Neon', cursive;
+    padding: 0;
+    margin: 0;
+
+}
+/* navbar Section */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    margin: 50px 0px;
+}
+.webLink ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: 100px; */
+    gap: 50px;
+}
+.webLink ul li{
+    list-style: none;
+}
+.webLink ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900; 
+    font-family: 'Poppins', sans-serif;
+}
+/* body sec */
+body{
+    background-image: url(./img/stethoscope.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: 400px;
+    background-size: 700px;
+    background-position-y:250px;
+    background-color: #f0f4f5;
+}
+.mainSection{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* left side */
+.leftMainSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    
+    gap: 20px;
+    margin-left: 250px;
+
+}
+.headingMainSection{
+    font-size: 28px;
+    
+}
+.headingMainSection h1{
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subMainSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* middle */
+.middleSection{
+    margin-top: 600px;
+    margin-left: 20px;
+}
+
+
+/* Right section */
+.rightSection{
+    display: flex;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 210px;
+    
+}
+.btn button{
+    padding: 12px 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#20bc7e;
+}
+img[alt="Doctor"]{
+    position: absolute;
+    width: 33%;
+    top: 22vh;
+    z-index: 2;
+}
+img[alt="yellow"]{
+    position: absolute;
+    width: 27.8%;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: 90px;
+}
+img[alt="green"]{
+    position: absolute;
+    width: 27.5%;
+    z-index: 0;
+    margin-left: 70px;
+    margin-top: 80px;
+}
